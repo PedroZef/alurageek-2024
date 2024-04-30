@@ -136,7 +136,7 @@ p {
 }
 
 .lixo:hover {
-    background-color: #5300C8;
+    background-color: #e50b36;
     color: #ffffff;
 }
 
@@ -163,7 +163,7 @@ button {
 }
 
 button:hover {
-    background-color: #f40a31;
+    background-color: #03318c;
     color: #ffffff;
 }
 
@@ -175,12 +175,21 @@ button:hover {
     background-color: #03318c;
     color: #fff;
     border: 2px solid #03318c;
+    cursor: pointer;
+    
+}
+
+.guardar:hover {
+    background-color: #ffffff;
+    color: #000;
+    border: 2px solid #03318c;
 }
 
 .limpar {
     background-color: #ffffff;
-    color: #03318c;
+    color: #000;
     border: 2px solid #03318c;
+    cursor: pointer;
 }
 
 #form-produto {
