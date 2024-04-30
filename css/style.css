@@ -23,8 +23,10 @@ header:hover {
 }
 
 main {
+    
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+
 }
 
 h1 {
@@ -42,10 +44,15 @@ p {
 
 .container {
     display: flex;
-    justify-content: space-around;
-    width: 90%;
+    justify-content: space-evenly;
+    width: 100%;
 
     text-align: center;
+}
+
+.produtos-container  {  
+    max-width: 100%;
+    align-items: center;
 }
 
 .card {
@@ -55,7 +62,7 @@ p {
     height: 258px;
     border-radius: 10px;
     gap: 10px;
-    border: 3px solid #000;
+    border: 2px solid #000;
     align-items: center;
     top: 20px;
     left: 20px;
@@ -81,13 +88,14 @@ p {
     width: 176px;
     height: 174px;
     border-radius: 10px;
-    border: 3px;
+    border: 2px;
     gap: 8px;
     margin-bottom: 5px;
     border: 2px solid #000;
 }
 
 .meus-produtos {
+    align-items: center;
     text-align: center;
 }
 
@@ -106,6 +114,7 @@ p {
 }
 
 .produtos img {
+    align-items: center;
     width: 176px;
     height: 174px;
     border-radius: 10px;
@@ -168,7 +177,7 @@ button:hover {
 }
 
 .adicionar-produtos {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .guardar {
@@ -227,7 +236,7 @@ a {
 
     .produtos {
         grid-template-columns: repeat(2, 1fr);
-        width: 95%;
+        width: 100%;
 
     }
 
@@ -247,6 +256,7 @@ a {
         display: flex;
         justify-content: center;
         text-align: center;
+        width:  90vw;
     }
 
     #form-produto {
