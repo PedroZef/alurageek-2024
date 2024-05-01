@@ -1,5 +1,24 @@
 [
     {
+        "id": 10,
+        "imagem": "img/Stormtrooper.png",
+        "produto": "Stormtrooper ",
+        "valor": 80.0
+    },
+
+    {
+        "id": 11,
+        "imagem": "img/R2d2.png",
+        "produto": "R2D2",
+        "valor": 60.0
+    },
+    {
+        "id": 12,
+        "imagem": "img/Game Boy Classic.png",
+        "produto": "Game Boy Classic",
+        "valor": 65.0
+    },
+    {
         "id": 1,
         "imagem": "img/Stormtrooper.png",
         "produto": "Stormtrooper ",
@@ -53,24 +72,6 @@
         "id": 9,
         "imagem": "img/Game Boy Classic.png",
         "produto": "Game Boy Classic",
-        "valor": 65.0
-    },
-    {
-        "id": 9,
-        "imagem": "img/Game Boy Classic.png",
-        "produto": "Game Boy Classic",
-        "valor": 65.0
-    },
-    {
-        "id": 10,
-        "imagem": "img/Storm.png",
-        "produto": "Storm",
-        "valor": 65.0
-    },
-    {
-        "id": 9,
-        "imagem": "img/Game Boy Classic.png",
-        "produto": "Game Boy Classic.png",
         "valor": 65.0
     }
 ]

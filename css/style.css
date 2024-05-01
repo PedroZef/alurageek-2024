@@ -17,13 +17,12 @@ header {
 }
 
 header:hover {
-    background-color: #8cc800;
+    background:  #b8db68;
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
 
-main {
-    
+main { 
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -73,7 +72,7 @@ p {
 }
 
 .card:hover {
-    background-color: #03318c;
+    background-color: #6591e9;
     color: #ffffff;
 }
 
@@ -151,6 +150,7 @@ p {
 
 /* Seção "Adicionar Produtos" */
 input {
+    color: #03318c;
     font-family: "IBM Plex Mono";
     border-radius: 50px;
     width: 392px;
@@ -162,6 +162,7 @@ input {
 
 
 button {
+    color: #03318c;
     font-family: "IBM Plex Mono";
     font-size: 20px;
     font-weight: 500;
@@ -173,7 +174,15 @@ button {
 
 button:hover {
     background-color: #03318c;
-    color: #ffffff;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.input-group ::placeholder,
+.button-group ::placeholder,
+#file-upload-button {
+    color: #03318c;
+    
 }
 
 .adicionar-produtos {
@@ -185,18 +194,17 @@ button:hover {
     color: #fff;
     border: 2px solid #03318c;
     cursor: pointer;
-    
 }
 
 .guardar:hover {
     background-color: #ffffff;
-    color: #000;
+    color:  #03318c;
     border: 2px solid #03318c;
 }
 
 .limpar {
     background-color: #ffffff;
-    color: #000;
+    color: #03318c;
     border: 2px solid #03318c;
     cursor: pointer;
 }
@@ -210,12 +218,11 @@ button:hover {
 }
 
 footer {
-    background: linear-gradient(rgb(195, 13, 201) 0%, rgb(113, 2, 164) 100%);
+    background: linear-gradient(rgb(195, 13, 201) 50%, rgb(7, 93, 230) 100%);
     color: #fff;
     font-size: 16px;
     text-align: center;
     padding: 44px 0;
-    text-align: center;
 }
 
 footer p,
@@ -237,6 +244,8 @@ a {
     .produtos {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
+        gap: 16px;
+        text-align: center;
 
     }
 
