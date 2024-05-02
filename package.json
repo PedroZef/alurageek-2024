@@ -1,0 +1,21 @@
+{
+  "name": "alurageek-2024",
+  "version": "1.0.0",
+  "description": "Projeto Alura",
+  
+
+  "scripts": {
+    "start": "json-server --watch db.json --port 5001"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroZef/alurageek-2024.git"
+  },
+  "author": "Pedro Zeferino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://pedrozef.github.io/alurageek-2024/#"
+  },
+  "homepage": "https://github.com/PedroZef/alurageek-2024#readme"
+}
