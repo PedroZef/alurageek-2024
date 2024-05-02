@@ -232,7 +232,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 920px) {
     .container {
         display: flex;
         align-items: center;
