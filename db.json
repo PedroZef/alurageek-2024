@@ -2,55 +2,55 @@
     {
         "id": 1,
         "imagem": "img/Stormtrooper.png",
-        "titulo": "Stormtrooper ",
+        "produto": "Stormtrooper ",
         "valor": 60.0
     },
     {
         "id": 2,
         "imagem": "img/R2d2.png",
-        "titulo": "R2D2",
+        "produto": "R2D2",
         "valor": 80.0
     },
     {
         "id": 3,
         "imagem": "img/Card duplo.png",
-        "titulo": "Stormtrooper e Game ",
+        "produto": "Stormtrooper e Game ",
         "valor": 120.0
     },
     {
         "id": 4,
         "imagem": "img/Game Boy Classic.png",
-        "titulo": "Game Boy Classic",
+        "produto": "Game Boy Classic",
         "valor": 60.0
     },
     {
         "id": 5,
         "imagem": "img/Darth.png",
-        "titulo": "Darth Vader",
+        "produto": "Darth Vader",
         "valor": 90.0
     },
     {
         "id": 6,
         "imagem": "img/Stormtrooper.png",
-        "titulo": "Stormtrooper ",
+        "produto": "Stormtrooper ",
         "valor": 60.0
     },
     {
         "id": 7,
         "imagem": "img/Stormtrooper.png",
-        "titulo": "Stormtrooper ",
+        "produto": "Stormtrooper ",
         "valor": 60.0
     },
     {   
         "id": 8,
         "imagem": "img/Card duplo.png",
-        "titulo": "Stormtrooper e Game ",
+        "produto": "Stormtrooper e Game ",
         "valor": 120.0
     },
     {
         "id": 9,
-        "imagem": "img/Game Boy Classic.png",
-        "titulo": "Game Boy Classic",
+        "imagem": "./img/Game Boy Classic.png",
+        "produto": "Game Boy Classic",
         "valor": 60.0
     }
 ]

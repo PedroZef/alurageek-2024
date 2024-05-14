@@ -3,12 +3,12 @@ let todosProdutos = [];
 async function getProdutos() {
     try {
         const response = await fetch('db.json');
-        const data = await response.json();
-        console.log('Dados obtidos:', data);
+        const listaCards = await response.json();
+        console.log('Dados obtidos:', listaCards);
         
-        todosProdutos = data;
+        todosProdutos = listaCards;
         
-        return data;
+        return listaCards;
     } catch (error) {
         console.error('Erro ao obter produtos:', error);
         throw error;
@@ -138,3 +138,4 @@ formProduto.addEventListener("submit", async (event) => {
 });
 
 mostrarProdutos();
+

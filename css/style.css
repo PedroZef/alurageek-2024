@@ -233,6 +233,10 @@ a {
 }
 
 @media (min-width: 778px) and (max-width: 1120px) {
+    header, footer {
+        width: 100%;
+    }
+    
     .container {
         display: flex;
         align-items: center;
@@ -246,6 +250,7 @@ a {
         width: 100%;
         gap: 16px;
         text-align: center;
+        width: 100%;
 
     }
 
@@ -258,6 +263,9 @@ a {
 }
 
 @media (min-width: 425px) and (max-width: 867px) {
+    header, footer {
+        width: 100%;
+        }
     .container {
         align-items: center;
         display: flex;
