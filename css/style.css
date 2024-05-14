@@ -222,7 +222,7 @@ footer {
     color: #fff;
     font-size: 16px;
     text-align: center;
-    padding: 44px 0;
+   
 }
 
 footer p,
@@ -232,7 +232,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 768px) and (max-width: 920px) {
+@media (min-width: 778px) and (max-width: 1120px) {
     .container {
         display: flex;
         align-items: center;
@@ -242,7 +242,7 @@ a {
     }
 
     .produtos {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         width: 100%;
         gap: 16px;
         text-align: center;
@@ -251,21 +251,28 @@ a {
 
     #form-produto {
         padding-bottom: 10px;
-        width: Fixed (430px) px;
-        height: 517px;
-        padding: 40px 0px 0px 0px;
+        width: Fixed (430px) px; 
         gap: 40px;
         opacity: 0px;
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 867px) {
     .container {
         align-items: center;
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         text-align: center;
-        width:  90vw;
+        width:  100%;
+    }
+
+    .produtos {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 16px;
+        text-align: center;
+
     }
 
     #form-produto {

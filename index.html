@@ -15,99 +15,104 @@
 </head>
 
 <body>
-    <header>
-        <h1><a href="https://github.com/PedroZef/alurageek-2024">
-                <img src="img/Logo.png" width="376px" height="56px"></h1>
-        </a>
+  
+        <header>
+            <h1><a href="https://alura.com.br/cursos" target="_blank">
+                    <img src="img/Logo.png" width="376px" height="56px">
+                </a>
+            </h1>
+        </header>
 
-    </header>
+        <main>
 
-    <main>
-
-        <div class="container" id="produtos">
-            <section class="meus-produtos" id="todosProdutos">
-                <h1>MEUS PRODUTOS:</h1>
-                <div class="produtos">
-                    <!--<div class="card">
-                   <img src="img/Darth.png" alt="Imagen do produto">
-                    <div class="card-container--info">
-                        <p>Darth</p>
-                        <div class="card-container--value">
-                            <p>R$ 80,00</p>
-                            <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+            <div class="container" id="produtos">
+                <section class="meus-produtos" id="todosProdutos">
+                    <h1>MEUS PRODUTOS:</h1>
+                    <div class="produtos" id="prod">
+                        <!-- <div class="card">
+                        <img src="img/Darth.png" alt="Imagen do produto">
+                        <div class="card-container--info">
+                            <p>Darth</p>
+                            <div class="card-container--value">
+                                <p>R$ 80,00</p>
+                                <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="img/Game Boy Classic" alt="Imagen do produto">
-                    <div class="card-container--info">
-                        <p>Game Boy Classic</p>
-                        <div class="card-container--value">
-                            <p>R$ 60,00</p>
-                            <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                    <div class="card">
+                        <img src="img/Game Boy Classic" alt="Imagen do produto">
+                        <div class="card-container--info">
+                            <p>Game Boy Classic</p>
+                            <div class="card-container--value">
+                                <p>R$ 60,00</p>
+                                <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                            </div>
                         </div>
                     </div>
-                </div>
-               <div class="card">
-                    <img src="img/R2d2.png" alt="Imagen do produto">
-                    <div class="card-container--info">
-                        <p>R2D2</p>
-                        <div class="card-container--value">
-                            <p>R$ 80,00</p>
-                            <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                   <div class="card">
+                        <img src="img/R2d2.png" alt="Imagen do produto">
+                        <div class="card-container--info">
+                            <p>R2D2</p>
+                            <div class="card-container--value">
+                                <p>R$ 80,00</p>
+                                <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="card">
-                    <img src="img/Stormtrooper.png" alt="Imagen do produto">
-                    <div class="card-container--info">
-                        <p>Stormtrooper 1</p>
-                        <div class="card-container--value">
-                            <p>R$ 60,00</p>
-                            <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+    
+                    <div class="card">
+                        <img src="img/Stormtrooper.png" alt="Imagen do produto">
+                        <div class="card-container--info">
+                            <p>Stormtrooper 1</p>
+                            <div class="card-container--value">
+                                <p>R$ 60,00</p>
+                                <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                            </div>
                         </div>
                     </div>
-                </div>
-                  <div class="card">
-                    <img src="img/Card duplo.png" alt="Imagen do produto">
-                    <div class="card-container--info">
-                        <p>Stormtrooper e Game Boy</p>
-                        <div class="card-container--value">
-                            <p>R$ 120,00</p>
-                            <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                      <div class="card">
+                        <img src="img/Card duplo.png" alt="Imagen do produto">
+                        <div class="card-container--info">
+                            <p>Stormtrooper e Game Boy</p>
+                            <div class="card-container--value">
+                                <p>R$ 120,00</p>
+                                <img class="lixo" src="img/lixo.png" alt="Ícone do Lixo">
+                            </div>
                         </div>
-                    </div>
-                </div>
-             </div>-->
-            </section>
+                    </div>-->
+                 </div>
+                </section>
 
-            <section id="produtos-container" class="produtos-container" class="adicionar-produtos">
-                <h1>ADICIONAR</h1>
-                <h1>PRODUTO:</h1>
-                <form id="form-produto">
-                    <div class="input-group">
-                        <input type="text" id="nome" name="nome" placeholder="Nome..." required>
+                <section id="produtos-container" class="produtos-container" class="adicionar-produtos">
+                    <h1>ADICIONAR</h1>
+                    <h1>PRODUTO:</h1>
+                    <form id="form-produto">
+                        <div class="input-group">
+                            <input type="text" id="nome" name="nome" placeholder="Nome..." required>
 
-                        <input type="number" id="valor" name="valor" placeholder="Valor..." required>
+                            <input type="number" id="valor" name="valor" placeholder="Valor..." required>
 
-                        <input type="file" id="imagem" name="imagem" placeholder="Imagem..." required>
-                    </div>
-                    <div class="button-group">
-                        <button class="guardar" type="submit">Guardar</button>
-                        <button class="limpar" type="reset">Limpar</button>
-                    </div>
-                </form>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <img src="img/Logo.png" width="376px" height="56px">
-        <p> <a href="https://alura.com.br/cursos" target="_blank"> &copy; Pedro Zeferino da Silva</p>
-        <br>
-        <p>ALURA LATAM 2024</p></a>
-    </footer>
-    <script src="app/main.js"></script>
+                            <input type="file" id="imagem" name="imagem" placeholder="Imagem..." required>
+                        </div>
+                        <div class="button-group">
+                            <button class="guardar" type="submit">Guardar</button>
+                            <button class="limpar" type="reset">Limpar</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+
+        <footer>
+            <img src="img/Logo.png" width="376px" height="56px">
+            <p><a href="https://alura.com.br/cursos" target="_blank"> &copy; Pedro Zeferino da Silva</p>
+            <br>
+            <p>ALURA LATAM 2024</p></a>
+        </footer>
+    
+  
+    <script src="./app/main.js"></script>
 </body>
 
 </html>
