@@ -44,8 +44,7 @@ p {
 .container {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-
+    width: auto;
     text-align: center;
 }
 
@@ -152,11 +151,12 @@ p {
 input {
     color: #03318c;
     font-family: "IBM Plex Mono";
-    border-radius: 50px;
-    width: 392px;
-    height: 58px;
-    border: 2px solid #03318c;
-    margin-bottom: 15px;
+    font-weight: 700;
+    border-radius: 40px;
+    width: 400px;
+    height: 70px;
+    border: 3px solid #03318c;
+    margin-bottom: 25px;
     padding-left: 10px;
 }
 
@@ -166,9 +166,11 @@ button {
     font-family: "IBM Plex Mono";
     font-size: 20px;
     font-weight: 500;
-    width: 188px;
-    height: 55px;
-    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    width: 196px;
+    height: 60px;
+    border-radius: 20px;
     margin-bottom: 15px;
 }
 
@@ -181,8 +183,8 @@ button:hover {
 .input-group ::placeholder,
 .button-group ::placeholder,
 #file-upload-button {
+    justify-content: center;
     color: #03318c;
-    
 }
 
 .adicionar-produtos {
@@ -192,7 +194,10 @@ button:hover {
 .guardar {
     background-color: #03318c;
     color: #fff;
-    border: 2px solid #03318c;
+    border: 3px solid #03318c;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -203,14 +208,16 @@ button:hover {
 }
 
 .limpar {
+    align-items: center;
     background-color: #ffffff;
     color: #03318c;
-    border: 2px solid #03318c;
+    border: 3px solid #03318c;
     cursor: pointer;
+    text-align: center;
 }
 
 #form-produto {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 #form-produto button {
@@ -256,7 +263,7 @@ a {
 
     #form-produto {
         padding-bottom: 10px;
-        width: Fixed (430px) px; 
+        width: Fixed (450px) px; 
         gap: 40px;
         opacity: 0px;
     }
@@ -278,6 +285,7 @@ a {
     .produtos {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
+        height: 80vh;
         gap: 16px;
         text-align: center;
 
