@@ -1,3 +1,4 @@
-.vscode
-
-.node_modules
+# The '.vscode' directory contains configuration files for Visual Studio Code,
+# such as settings.json and launch.json, which are used to customize the
+# development environment and debugging experience.
+.vscode/
