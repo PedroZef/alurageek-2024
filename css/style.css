@@ -1,304 +1,354 @@
 * {
+    /* Resets default margin and padding */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
+/* General styles */
 body {
+    /* Sets font family for the entire document */
     font-family: "IBM Plex Mono" sans-serif;
 }
 
 header {
+    /* Sets background color for header */
     background: #5300C8;
+    /* Sets text color for header */
     color: #fff;
+    /* Centers text */
     text-align: center;
+    /* Adds padding to the top, bottom, left, and right of the header */
     padding: 20px 0px 20px 0px;
+    /* Makes the header take up the full width of the viewport */
     width: 100vw;
 }
 
+/* Changes background color on hover */
 header:hover {
     background:  #b8db68;
+    /* Adds a smooth transition effect */
     transition: all .4s ease-in-out;
+    /* Changes cursor on hover */
     cursor: pointer;
 }
 
 main { 
+    /* Adds padding to the top and bottom of the main section */
     padding-top: 60px;
     padding-bottom: 60px;
 
 }
 
 h1 {
+    /* Centers the h1 element */
     display: flex;
+    /* Sets font family for h1 element */
     font-family: "Press Start 2P";
+    /* Adds margin to the bottom of the h1 element */
     margin-bottom: 8px;
+    /* Centers the h1 element */
     justify-content: center;
 }
 
 p {
+    /* Sets text alignment for all p elements */
     text-align: left;
 }
 
-/* Seção "Meus Produtos" */
+/* Product section styles */
 
 .container {
+    /* Centers the container element */
     display: flex;
+    /* Evenly distributes the space between elements */
     justify-content: space-evenly;
+    /* Sets the width of the container element */
     width: auto;
+    /* Centers the text */
     text-align: center;
 }
 
 .produtos-container  {  
+    /* Sets the maximum width of the element */
     max-width: 100%;
+    /* Centers the elements */
     align-items: center;
 }
 
 .card {
+    /* Sets background color for the card element */
     background: #5300C8;
+    /* Sets text color for the card element */
     color: #ffffff;
+    /* Sets width for the card element */
     width: 196px;
+    /* Sets height for the card element */
     height: 258px;
+    /* Rounds the corners of the card element */
     border-radius: 10px;
-    gap: 10px;
+    /* Adds a border to the card element */
     border: 2px solid #000;
+    /* Centers the elements */
     align-items: center;
-    top: 20px;
-    left: 20px;
+    /* Adds padding to the top, bottom, left, and right of the card element */
     padding: 10px 0px 10px 0px;
+    /* Adds margin to the bottom of the card element */
     margin-bottom: 30px;
+    /* Sets the grid layout for the card element */
     grid-template-columns: repeat(3, 1fr);
+    /* Adds a shadow effect to the card element */
     box-shadow: -12px 9px 5px -4px rgba(0, 0, 0, 0.39);
 }
 
 .card:hover {
+    /* Changes background color on hover */
     background-color: #6591e9;
+    /* Changes text color on hover */
     color: #ffffff;
 }
 
 
 .card p {
+    /* Adds margin to the top, bottom, left, and right of the p element */
     margin: 10px 10px;
 }
 
 .card img {
+    /* Displays the image as a block element */
     display: block;
+    /* Centers the image */
     margin: 0 auto;
+    /* Sets width for the image */
     width: 176px;
+    /* Sets height for the image */
     height: 174px;
+    /* Rounds the corners of the image */
     border-radius: 10px;
+    /* Adds border to the image */
     border: 2px;
-    gap: 8px;
+    /* Adds margin to the bottom of the image */
     margin-bottom: 5px;
+    /* Adds border to the image */
     border: 2px solid #000;
 }
 
 .meus-produtos {
+    /* Centers the elements */
     align-items: center;
+    /* Centers the text */
     text-align: center;
 }
 
 .produtos {
+    /* Sets the grid layout for the product section */
     display: grid;
+    /* Sets width for the product section */
     width: 678px;
+    /* Sets height for the product section */
     height: auto;
+    /* Adds a shadow effect to the product section */
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+    /* Sets the grid layout for the product section */
     grid-template-columns: repeat(3, 1fr);
+    /* Adds space between the grid elements */
     grid-gap: 25px 0px;
+    /* Adds padding to the top, bottom, left, and right of the product section */
     padding: 20px;
+    /* Adds scrollbars to the product section */
     overflow: auto;
+    /* Adds space between the grid elements */
     gap: 25px;
+    /* Adds padding to the top of the product section */
     padding-top: 40px;
+    /* Adds a shadow effect to the product section */
     box-shadow: -12px 9px 5px -4px rgba(0, 0, 0, 0.39);
 }
 
 .produtos img {
+    /* Centers the elements */
     align-items: center;
+    /* Sets width for the image */
     width: 176px;
+    /* Sets height for the image */
     height: 174px;
+    /* Rounds the corners of the image */
     border-radius: 10px;
+    /* Adds margin to the bottom of the image */
     margin-bottom: 10px;
 }
 
 .card-container--value {
+    /* Centers the elements */
     display: flex;
+    /* Distributes the space evenly between elements */
     justify-content: space-between;
+    /* Centers the elements */
     align-items: center;
+    /* Sets font weight for the value element */
     font-weight: 600;
 }
 
 .card-container--value img {
+    /* Sets width for the image */
     width: 24px;
+    /* Sets height for the image */
     height: 24px;
+    /* Adds margin to the right of the image */
     margin-right: 10px;
+    /* Centers the elements */
     border: none;
+    /* Displays the image as a flex container */
     display: flex;
+    /* Aligns the elements to the center */
     flex-direction: column;
+    /* Centers the elements */
     align-items: center;
 }
 
 .lixo {
+    /* Sets width for the trash icon */
     width: 24px;
+    /* Sets height for the trash icon */
     height: 24px;
+    /* Changes cursor on hover */
     cursor: pointer;
 }
 
 .lixo:hover {
+    /* Changes background color on hover */
     background-color: #e50b36;
+    /* Changes text color on hover */
     color: #ffffff;
 }
 
-/* Seção "Adicionar Produtos" */
+/* Add product section styles */
 input {
+    /* Sets color for the input element */
     color: #03318c;
+    /* Sets font family for the input element */
     font-family: "IBM Plex Mono";
-    font-weight: 700;
+    /* Rounds the corners of the input element */
     border-radius: 40px;
+    /* Sets width for the input element */
     width: 400px;
+    /* Sets height for the input element */
     height: 70px;
+    /* Adds border to the input element */
     border: 3px solid #03318c;
+    /* Adds margin to the bottom of the input element */
     margin-bottom: 25px;
+    /* Adds padding to the left of the input element */
     padding-left: 10px;
 }
 
 
 button {
+    /* Sets color for the button element */
     color: #03318c;
+    /* Sets font family for the button element */
     font-family: "IBM Plex Mono";
+    /* Sets font size for the button element */
     font-size: 20px;
+    /* Sets font weight for the button element */
     font-weight: 500;
+    /* Centers the elements */
     align-items: center;
+    /* Centers the text */
     text-align: center;
+    /* Sets width for the button element */
     width: 196px;
+    /* Sets height for the button element */
     height: 60px;
+    /* Rounds the corners of the button element */
     border-radius: 20px;
+    /* Adds margin to the bottom of the button element */
     margin-bottom: 15px;
 }
 
 button:hover {
+    /* Changes background color on hover */
     background-color: #03318c;
+    /* Changes text color on hover */
     color: #ffffff; 
+    /* Changes cursor on hover */
     cursor: pointer;
 }
 
 .input-group ::placeholder,
 .button-group ::placeholder,
 #file-upload-button {
+    /* Centers the elements */
     justify-content: center;
+    /* Sets color for the placeholder text */
     color: #03318c;
 }
 
 .adicionar-produtos {
+    /* Adds padding to the left of the add product section */
     padding-left: 50px;
 }
 
 .guardar {
+    /* Changes background color */
     background-color: #03318c;
+    /* Changes text color */
     color: #fff;
-    border: 3px solid #03318c;
+    /* Centers the elements */
     align-items: center;
+    /* Centers the text */
     justify-content: space-around;
+    /* Centers the text */
     text-align: center;
+    /* Changes cursor on hover */
     cursor: pointer;
 }
 
 .guardar:hover {
+    /* Changes background color on hover */
     background-color: #ffffff;
+    /* Changes text color on hover */
     color:  #03318c;
+    /* Adds border to the button element */
     border: 2px solid #03318c;
 }
 
 .limpar {
+    /* Centers the elements */
     align-items: center;
+    /* Changes background color */
     background-color: #ffffff;
+    /* Sets text color */
     color: #03318c;
-    border: 3px solid #03318c;
+    /* Changes cursor on hover */
     cursor: pointer;
+    /* Centers the text */
     text-align: center;
 }
 
 #form-produto {
+    /* Sets the maximum width of the form element */
     max-width: 500px;
 }
 
 #form-produto button {
+    /* Changes cursor on hover */
     cursor: pointer;
 }
 
 footer {
+    /* Sets background for the footer element */
     background: linear-gradient(rgb(195, 13, 201) 50%, rgb(7, 93, 230) 100%);
+    /* Sets text color for the footer element */
     color: #fff;
+    /* Sets font size for the footer element */
     font-size: 16px;
+    /* Centers the text */
     text-align: center;
+    /* Sets width for the footer element */
     width: 100vw;
-   
+
 }
 
 footer p,
-a {
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-}
 
-@media (min-width: 778px) and (max-width: 1120px) {
-    header, footer {
-        width: 100%;
-    }
-    
-    .container {
-        display: flex;
-        align-items: center;
-        overflow: auto;
-        text-align: center;
-        flex-direction: column-reverse;
-    }
-
-    .produtos {
-        grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-        gap: 16px;
-        text-align: center;
-        width: 100%;
-
-    }
-
-    #form-produto {
-        padding-bottom: 10px;
-        width: Fixed (450px) px; 
-        gap: 40px;
-        opacity: 0px;
-    }
-}
-
-@media (min-width: 425px) and (max-width: 867px) {
-    header, footer {
-        width: 100%;
-        }
-    .container {
-        align-items: center;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        text-align: center;
-        width:  100%;
-    }
-
-    .produtos {
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        height: 80vh;
-        gap: 16px;
-        text-align: center;
-
-    }
-
-    #form-produto {
-        display: block;
-        padding-bottom: 50px;
-        width: 100%;
-        margin: 20px;
-
-        text-align: center;
-    }
-}
